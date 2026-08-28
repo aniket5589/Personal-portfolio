@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Rawat | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Aniket Rawat - B.Tech CSE Student, Web Developer, and AI enthusiast.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Aniket<span>.</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span class="highlight">Aniket Rawat</span></h1>
+                    <h2 class="subtitle">B.Tech CSE Student &bull; Web Development &bull; AI &bull; Prompt Engineering</h2>
+                    <p class="hero-intro">I build practical technology projects and explore ideas that solve real-world problems.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/profile.jpg" alt="Aniket Rawat - Profile Photo" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>I am a B.Tech Computer Science student interested in software development, web technologies, artificial intelligence, and prompt engineering. I enjoy learning new technologies, building practical projects, and exploring ideas that solve real-world problems.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>B.Tech in Computer Science and Engineering / Software Engineering</h3>
+                        <h4>Nxtwave of Innovation in Advanced Technologies (NIAT), Jaipur</h4>
+                        <p>Associated with Vivekananda Global University (VGU)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming</h3>
+                        <ul class="skill-list">
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <ul class="skill-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Other</h3>
+                        <ul class="skill-list">
+                            <li>Prompt Engineering</li>
+                            <li>Git & GitHub</li>
+                            <li>Generative AI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Prompt Engineering Intern</h3>
+                        <p>Completed a comprehensive Prompt Engineering Internship, applying generative AI concepts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Smart Agriculture Robot</h3>
+                        <p>A technology project focused on using sensors and automation to support agricultural applications.</p>
+                        <div class="project-tags">
+                            <span>Sensors</span>
+                            <span>Automation</span>
+                        </div>
+                        <button class="btn btn-outline" disabled>View Project</button>
+                    </div>
+                    <div class="project-card">
+                        <h3>Khata Copilot</h3>
+                        <p>An AI-based concept designed to simplify digital record and bill/ledger management.</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>Management</span>
+                        </div>
+                        <button class="btn btn-outline" disabled>View Project</button>
+                    </div>
+                    <div class="project-card">
+                        <h3>Restaurant Digital Menu</h3>
+                        <p>A web-based concept for restaurants where customers can view dishes digitally and interact with a menu interface.</p>
+                        <div class="project-tags">
+                            <span>Web</span>
+                            <span>Interface</span>
+                        </div>
+                        <button class="btn btn-outline" disabled>View Project</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-container">
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-msg" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-msg" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span class="error-msg" id="phone-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-msg" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="form-success" class="form-success hidden">Thanks! Your message has been submitted. (This is a frontend-only form)</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Aniket Rawat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
